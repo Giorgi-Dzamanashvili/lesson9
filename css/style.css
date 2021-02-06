@@ -97,45 +97,6 @@
 		height: 10px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
 /*meore section*/
 .section2{
 	padding-bottom: 100px;
@@ -146,7 +107,7 @@
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	width: 1865px;
+	width: 100%;
 	/*height: 499.33px;
 */	background-color: #363E97;
 }
@@ -158,14 +119,14 @@
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	width: 1170px;
+	width: 70%;
 	/*height: 320px;*/
 	margin: 0 auto;
 	margin-top: 89.8px;
 }
 .yuti1{
 	padding-bottom: 70px;
-	width: 570px;
+	width: 49%;
 	/*height: 320px;*/
 	background-color: white;
 }
@@ -179,13 +140,14 @@
 	top: 30px;
 	color: white;
 	font-size: 24px;
+	width: 400px;
 }
 .satauri2::after {
 	display: inline-block;
 	content: " ";
-	width: 2px;
+	width: 3px;
 	height: 20px;
-	background-color: white;
+	/*background-color: white;*/
 	margin-left: 10px;
 }
 .satauri3{
@@ -194,13 +156,33 @@
 	top: 30px;
 	color: white;
 	font-size: 18px;
+	width: 200px;
+}
+
+@media screen and (max-width: 1300px){
+	.section2{
+		width: 100%;
+	}
+	.satauri2,
+	.satauri3 {
+		display: none;
+	}
+}
+@media screen and (max-width: 520px){
+	.yuti{
+		height: 300px;
+		padding-top: 0px;
+	}
+	.section2{
+		height: 400px;
+	}
 }
 /*mesame section*/
 .section3{
 	padding-bottom: 90px;
 	margin-top: 0px;
 	position: relative;
-	width: 1865px;
+	width: 100%;
 	/*height: 450px;*/
 	background-color: #BDCCD4;
 	padding-top: 90.2px;
@@ -212,7 +194,7 @@
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	width: 1172px;
+	width: 60%;
 	/*height: 210px;*/
 	margin: 0 auto;
 }
@@ -223,12 +205,12 @@
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	width: 1170px;
+	width: 60%;
 	/*height: 60px;*/
-	margin-left: 348px;
+	margin-left: 373px;
 }
 .divi1{
-	width: 270px;
+	width: 300px;
 	height: 60px;
 	background-color: #E6E6E6;
 	font-size: 20px;
@@ -260,12 +242,44 @@
 	font-size: 18px;
 
 }
+@media screen and (max-width: 1368px){
+	.seciton3{
+		max-width: 100%;
+	}
+	.suratebi{
+		width: 100%;
+	}
+	.divebi{
+		width: 100%;
+		margin-left: 0px;
+	}
+}
+@media screen and (max-width: 1112px){
+	.satauri4,
+	.para4{
+		display: none;
+	}
+	.suratebi{
+		margin-left: 0px;
+		width: 25%;
+	}
+	.divebi{
+		width: 100%;
+		margin-left: 0px;
+	}
+}
+@media screen and (max-width: 433px){
+	.divi1{
+		font-size: 14px;
+	}
+}
+
 /*meotxe section*/
 .section4{
 	padding-bottom: 50px;
 	margin-top: 0px;
 	position: relative;
-	width: 1865px;
+	width: 100%;
 	/*height: 345.46px;*/
 	background-color:#E6E6E6;
 }
@@ -278,20 +292,23 @@
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	width: 1172px;
+	width: 100%;
 	height: 225px;
 }
 .pirveli{
 	position: relative;
-	width: 570px;
+	width: 30%;
 	/*height: 225px;*/
 	background-color: #F2F2F2;
+	margin-left: 300px;
+
 }
 .meore{
 	position: relative;
-	width: 570px;
+	width: 30%;
 	/*height: 225px;*/
 	background-color: #F2F2F2;
+	margin-right: 300px;
 }
 .sataurebi{
 	font-size: 22px;
@@ -306,7 +323,7 @@
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	width: 534px;
+	width: 100%;
 	/*height: 150px;*/
 	padding-left: 30px;	
 }
@@ -353,4 +370,52 @@
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
+}
+@media screen and (max-width: 1368px){
+	.section3{
+		width: 100%;
+	}
+	.pirveli,
+	.meore{
+		width: 100%;
+	}
+	.txtsrt{
+		height: 130px;
+	}
+	.para1{
+		margin-top: 0px;
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 1100px){
+	.sataurebi{
+		font-size: 16px;
+	}
+	.para1{
+		font-size: 14px;
+	}
+	.feature,
+	.para5{
+		display: none;
+	}
+	.pirveli,
+	.meore{
+		width: 30%;
+		margin-left: 100px;
+	}
+}
+@media screen and (max-width: 849px){
+	.pirveli,
+	.meore{
+		width: 50%;
+		margin-left: 0px;
+	}
+}
+@media screen and (max-width: 510px){
+	.meore{
+		display: none;
+	}
+	.pirveli{
+		width: 100%;
+	}
 }
